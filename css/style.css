@@ -1,0 +1,495 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/*body{
+	background-color: yellow;
+}*/
+
+.container{
+	width:1140px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.common{
+	width:100%;
+	float:left;
+}
+
+.headerleft{
+	width:15%;
+	float:left;
+}
+
+.headermiddle{
+	width:60%;
+	float:left;
+}
+
+.headermiddle ul li{
+	width:33.33%;
+	float:left;
+	list-style: none;
+	padding-top: 5px ;
+}
+
+.headermiddle ul li a{
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-top: 5px;
+	display:block;
+	color:black;
+}
+
+.headermiddle ul li a:hover{
+	text-decoration: underline;
+}
+
+
+.headerright{
+	width: 25%;
+	float:left;
+}
+
+
+.headerright div ul{
+	list-style: none;
+}
+
+.headerright div ul li{
+	float:left;
+	margin: 7px 0px;
+	margin-left: 5px;
+}
+
+.headerright div ul li a svg#one{
+	background-color:#243388;
+	padding: 2px 7px;
+	margin-right:5px;
+}
+
+.headerright div ul li a svg#two{
+	background-color:#2196F3;
+	padding: 2px 3px;
+	margin-right:5px;
+}
+
+.headerright div ul li a svg#three{
+	background-color:#3F51B5;
+	padding: 2px 5px;
+	margin-right:5px;
+}
+
+.headerright div ul li a svg#four{
+	background-color:#A51A13;
+	padding: 2px 3px;
+	margin-right:5px;
+}
+
+.headerright div ul li a svg{
+	font-size: 18px;
+	color:white;
+}
+
+svg#one:hover{
+	color:dodgerblue;
+	transform: scale(1.8);
+}
+
+svg#two:hover{
+	color:black;
+	transform: scale(1.8);
+}
+svg#three:hover{
+	color:black;
+	transform: scale(1.8);
+}
+svg#four:hover{
+	color:black;
+	transform: scale(1.8);
+}
+
+.headerright div{
+	width: 50%;
+	float:left;
+}
+
+ .headerright div span{
+	font-size: 35px;
+	color:white;
+}
+
+.headerright div button{
+	background-color: transparent;
+	border:none;
+	margin-top: 10px;
+
+	}
+
+.headerright div button svg{
+	margin-right: 5px;
+}
+
+.headerright div button a{
+ text-transform: capitalize;
+ font-size: 15px;
+ color:#243388;
+ font-weight: 600;
+ text-decoration: none;
+
+}
+
+.headerright div button a:hover{
+	color: green;
+}
+
+
+
+.banner{
+	background-image: url("../images/background.jpg");
+	height:445px;
+	width:100%;
+
+}
+
+.bannerleftside{
+	width:50%;
+	float:left;
+	text-align: center;
+}
+
+.bannerleftside h1{
+	font-size: 65px;
+	text-transform: uppercase;
+	margin-top: 100px;
+}
+.bannerleftside p{
+	font-size: 17px;
+	margin: 10px 0px;
+}
+
+.bannerleftside button{
+	padding: 8px 20px;
+	border-radius: 5px;
+	border:none;
+	background-color: #66C430;
+	text-transform: uppercase;
+}
+
+
+.bannerleftside button a{
+	color:white;
+	text-decoration: none;
+}
+
+.bannerleftside button a:hover{
+	color: black;
+}
+
+
+/* services section start here */
+
+.services{
+	margin-top: 40px;
+}
+
+.services div{
+	float:left;
+	width: 22%;
+}
+
+.services .servicechild{
+	text-align: center;
+	padding: 0px 12px;
+}
+
+.services .servicechild h2{
+	margin: 25px 0px;
+	text-transform: capitalize;
+}
+
+.services .servicechild p{
+	text-align: justify;
+	font-size: 17px;
+}
+
+.services .servicechild button{
+	margin-top: 18px;
+	padding: 8px 10px;
+	text-transform: uppercase;
+	background-color: #66C430;
+	border-radius: 6px;
+}
+
+.services .servicechild button a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+.services .servicechild button a:hover{
+	color:black;
+}
+
+/* services section start here */
+
+/* facilities section start here */
+
+.facilitiesleft{
+	background-color: #B7CCD3;
+	float:left;
+	width:45%;
+	margin-right: 50px;
+	margin-top: 35px;
+}
+
+.facilitiesright{
+	background-color: #B7CCD3;
+	float:left;
+	width:40%;
+	margin-left: 50px;
+	margin-top: 35px;
+}
+
+.facilitiesleft h2, .facilitiesright h2{
+	text-align: center;
+	margin: 55px 0px 30px 0px;
+	font-size: 30px;
+}
+
+.facilitiesleft button, .facilitiesright button,.blogsectionleft button, .blogsectionright button{
+	padding: 7px 10px;
+	background-color: #66C430;
+	margin: 20px 0px 40px 0px;
+	border-radius: 6px;
+}
+
+
+
+.facilitiesleft button a, .facilitiesright button a, .blogsectionleft button a, .blogsectionright button a, .infosection button a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color:white;
+}
+
+.facilitiesleft button a:hover, .facilitiesright button a:hover, .blogsectionleft button a:hover, .blogsectionright button a:hover, .infosection button a:hover{
+	color: black;
+}
+
+.facilitiesleft ul, .facilitiesleft button , .facilitiesright ul, .facilitiesright button{
+	margin-left:40px;
+	list-style: none;
+}
+
+.facilitiesleft ul li , .facilitiesright ul li{
+	margin-top: 10px;
+}
+
+.facilitiesleft ul a , .facilitiesright ul a{
+	text-decoration: none;
+	color: black;
+}
+
+.facilitiesleft ul a svg, .facilitiesright ul a svg{
+	color:green;
+	margin-right: 10px;
+}
+
+/* facilities section end here */
+
+/* Blog section end here */
+#blog{
+	text-align: center;
+	font-size: 30px;
+	margin: 25px 0px 45px 0px;
+	color:#095169;
+}
+
+.blogsectionleft{
+	float:left;
+	width:47%;
+	margin-right: 40px;
+	font-size: 18px;
+	color:#095199;
+}
+
+.blogsectionright{
+	float:left;
+	width:45%;
+	margin-left: 45px;
+	font-size: 18px;
+	color:#095199;
+}
+
+.blogsectionleft p{
+	color: black;
+	font-size: 17px;
+	margin-top: 8px;
+}
+
+.blogsectionright p{
+	color: black;
+	font-size: 17px;
+	margin-top: 39px;
+}
+
+/* Blog section end here */
+
+/* Info section end here */
+
+.infosection{
+	text-align: right;
+	background-color: #DCDCDC;
+	padding-top: 40px;
+}
+
+.infosection ul{
+	text-align: center;
+}
+.infosection ul li{
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.infosection ul li a{
+	font-size:20px;
+	font-weight: 600;	
+}
+
+.infosection button{
+	background-color:#494949;
+	padding: 7px 10px;
+	margin-bottom: 25px;
+	border-radius: 6px;
+}
+.infosection button a{
+	text-transform: capitalize;
+}
+
+.infosection ul li svg{
+	margin-right: 5px;
+	font-size: 18px;
+}
+
+.infosection button svg{
+	font-size: 18px;
+	color: white;
+	margin-right: 5px;
+	margin-top: -5px;
+}
+
+/* Info section end here */
+
+/*Trustpilot section start here*/
+
+.trustpilot{
+	text-align: center;
+	padding: 35px 0px;
+}
+
+
+.trustpilot h1 svg{
+	font-size: 33px;
+	color:#00B67A;
+	margin-right: 5px;
+}
+
+.trustpilot p svg{
+	font-size: 33px;
+	color:white;
+	margin: 10px 5px 10px 0px;
+	padding: 5px;
+	background-color: #73CF11;
+}
+
+.trustpilot p svg:last-child{
+	background-color: #9E9E9E;
+}
+
+.trustpilot p{
+	font-weight: 500;
+}
+
+/*Trustpilot section end here*/
+/*Footer top section start here*/
+
+.footertop{
+	text-align: center;
+	background-color: #808080;
+	padding: 35px 0px 30px 0px;
+
+}
+
+.footertopsection{
+	float:left;
+	width:20%;
+}
+
+.footertop h1{
+	margin-bottom: 45px;
+	color: #F4F4F4;
+	text-transform: capitalize;
+}
+
+.footertopsection h2:first-child{
+	color: #F4F4F4;
+	font-size: 33px;
+	text-transform: uppercase;
+	font-weight: 100;
+	text-align: left;
+	margin-left: 10px;
+
+}
+
+.footertopsection h2:nth-child(2){
+	color: #F4F4F4;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 20px;
+	text-align: left;
+	margin-left: 10px;
+
+}
+
+.footertopsection p{
+	font-size: 24px;
+	font-weight: 800;
+	text-transform: capitalize;
+	color:#202020;
+	text-align: left;
+	margin-left: 10px;
+}
+/*Footer top section end here*/
+
+/*Footer  section start here*/
+
+.footer{
+	background-color: #052D3A;
+	margin-bottom: 10px;
+}
+
+.footerbottom{
+	float:left;
+	width:35%;
+	margin: 30px 0px;
+	text-transform: capitalize;
+	color:white;
+	text-align: center;
+}
+
+#footerleft{
+	margin-left: 200px;
+}
+
+#footerleft p{
+	text-align: righ;
+}
+
+
+/*Footer  section end here*/
